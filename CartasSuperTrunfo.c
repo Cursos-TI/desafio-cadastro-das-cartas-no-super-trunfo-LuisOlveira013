@@ -38,7 +38,7 @@ int main(){
     int pontosTuristicos2; // Número de pontos turísticos
 
     //coletando os dados da segunda carta 
-    printf("Cadastro da primeira carta:\n");
+    printf("Cadastro da segunda carta:\n");
     printf("Estado (de A a H): ");
     scanf(" %c", &estado2);
     printf("Código da Carta (ex: A01, B03): ");
@@ -65,7 +65,7 @@ int main(){
     printf("Pontos Turísticos: %d\n", pontosTuristicos);
 
     //exibindo dados da segunda carta
-    printf("\n--- Informações da Primeira Carta ---\n");
+    printf("\n--- Informações da segunda Carta ---\n");
     printf("Estado: %c\n", estado2);
     printf("Código da Carta: %s\n", codigo2);
     printf("Cidade: %s\n", cidade2);
